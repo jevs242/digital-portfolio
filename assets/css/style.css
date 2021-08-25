@@ -1178,3 +1178,7 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+video {
+    width:100%;
+}
