@@ -5,7 +5,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #3a3a3a;
   color: #fff;
   position: relative;
   background: transparent;
@@ -14,7 +14,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/.jpg") top right no-repeat;
+  background: #181818 url("../img/.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
