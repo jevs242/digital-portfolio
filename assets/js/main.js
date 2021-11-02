@@ -144,5 +144,13 @@
     loop: true,
     items: 1
   });
+  
+  $(".portfolio-details-carouselno").owlCarousel({
+    autoplay: false,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+  
 
 })(jQuery);
