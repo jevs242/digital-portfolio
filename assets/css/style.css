@@ -1196,6 +1196,6 @@ section .container {
   color: #fff;
 }
 
-video {
+video , iframe{
     width:100%;
 }
