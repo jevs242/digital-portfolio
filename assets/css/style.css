@@ -1167,15 +1167,6 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
-.portfolio-details .portfolio-details-carouselno .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3) !important;
-}
-
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
   background-color: #cf6625 !important;
 }
@@ -1248,6 +1239,37 @@ section .container {
   color: #fff;
 }
 
-video iframe {
+video,
+iframe {
   width: 100%;
 }
+
+#container {
+  width: 100%;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
+}
+#center {
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  #left,
+  #right,
+  #center {
+    float: left;
+  }
+}
+.Skillp {
+  padding-left: 30px;
+}
+.interests {
+  clear: both;
+}
+.InformationDylan {
+  padding: 15px;
+}
+
