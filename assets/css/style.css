@@ -330,8 +330,8 @@ footer .create-for a:hover{
 
 .info-portfolio .category{
     font-size: 13px;
-
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 100%;
     text-align: inherit;
 }
@@ -402,6 +402,20 @@ footer .create-for a:hover{
     }
     video{
         height:30% !important;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .info-portfolio{
+        margin-top: 30px;
+        font-size: 13px;
+        display: flex;
+        flex: 0;
+        flex-direction:column;
+    }
+    .info-portfolio .category{
+        margin-left: 0%;
     }
     
 }
