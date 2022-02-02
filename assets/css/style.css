@@ -427,3 +427,11 @@ footer .create-for a:hover{
 .category iframe{
     margin-bottom: 50px;
 }
+
+.nes-dialog{
+    display: flex;
+}
+
+.nes-dialog.desactive{
+    display: none;
+}

@@ -1,4 +1,15 @@
 
+const deviceType = () => {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        return "tablet";
+    }
+    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        return "mobile";
+    }
+    return "desktop";
+};
+
 const grid = new Muuri('.grid',
 {
     layout:{rounding: false}
@@ -6,6 +17,11 @@ const grid = new Muuri('.grid',
 
 window.addEventListener('load', () =>{
     grid.refreshItems().layout();
+    if(deviceType() === "mobile")
+    {
+        const resume = document.getElementById("dialog-default");
+        resume.classList.add("desactive");
+    }
     document.getElementById('grid').classList.add('charge-image');
 
     const link = document.querySelectorAll('#category a');
@@ -81,10 +97,5 @@ new VenoBox({
   spinner: 'wave',
   ratio:'full',
 
-});
-
-$('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
 });
 
