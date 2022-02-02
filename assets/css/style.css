@@ -428,10 +428,6 @@ footer .create-for a:hover{
     margin-bottom: 50px;
 }
 
-.nes-dialog{
-    display: flex;
-}
-
 .nes-dialog.desactive{
     display: none;
 }

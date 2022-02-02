@@ -21,6 +21,7 @@ window.addEventListener('load', () =>{
     {
         const resume = document.getElementById("dialog-default");
         resume.classList.add("desactive");
+
     }
     document.getElementById('grid').classList.add('charge-image');
 
@@ -81,15 +82,29 @@ window.addEventListener('load', () =>{
             overlay.classList.remove('active'); 
         }
     })
-
-    const resume = document.getElementById("go-resume");
-
-    resume.addEventListener('click',(event) => {
-        if(event.target.id === 'go-resume')
-        {
-            window.open('assets/pdf/resume.pdf', '_blank');
-        }
-    })
+    
+    if(deviceType() === "mobile")
+    {
+        const resume = document.getElementById("bphone");
+        
+        resume.addEventListener('click',(event) => {
+            if(event.target.id === 'go-resume')
+            {
+                window.open('assets/pdf/resume.pdf', '_blank');
+            }
+        })
+    }
+    else
+    {
+        const resume = document.getElementById("go-resume");
+    
+        resume.addEventListener('click',(event) => {
+            if(event.target.id === 'go-resume')
+            {
+                window.open('assets/pdf/resume.pdf', '_blank');
+            }
+        })
+    }
 });
 
 new VenoBox({
