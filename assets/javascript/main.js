@@ -88,7 +88,7 @@ window.addEventListener('load', () =>{
         const resume = document.getElementById("bphone");
         
         resume.addEventListener('click',(event) => {
-            if(event.target.id === 'go-resume')
+            if(event.target.id === 'bphone')
             {
                 window.open('assets/pdf/resume.pdf', '_blank');
             }
