@@ -223,11 +223,11 @@ img , video , iframe{
 .nes-dialog{
     text-align: center;
     margin-top: 20%;
+    align-content: center !important;
+    justify-content: center !important;
 
-    width: 25%;
-    height: 20%;
-    margin-left:37% ;
-    margin-right: 35%;
+    margin-left:40.33% ;
+    margin-right:40.33% ;
 }
 
 footer .create-for{
@@ -330,8 +330,9 @@ footer .create-for a:hover{
 
 .info-portfolio .category{
     font-size: 13px;
-    margin-left: 10%;
-    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 100%;
     text-align: inherit;
 }
 
