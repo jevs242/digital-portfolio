@@ -417,6 +417,9 @@ footer .create-for a:hover{
     .info-portfolio .category{
         margin-left: 0%;
     }
+    .overlay .description{
+        font-size: 10px;
+    }
     
 }
 
