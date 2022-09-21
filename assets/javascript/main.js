@@ -39,11 +39,6 @@ window.addEventListener('load', () =>{
         });
     })
 
-    document.querySelector("#search-bar").addEventListener('input', (event) =>{
-        const search = event.target.value.toLowerCase();
-        grid.filter((item) => item.getElement().dataset.tag.includes(search));
-    })
-
     const overlay = document.getElementById("overlay");
 
     
@@ -96,14 +91,23 @@ window.addEventListener('load', () =>{
     }
     else
     {
-        const resume = document.getElementById("go-resume");
-    
+        const resume = document.getElementById("bphone");
         resume.addEventListener('click',(event) => {
-            if(event.target.id === 'go-resume')
+            if(event.target.id === 'bphone')
             {
                 window.open('assets/pdf/resume.pdf', '_blank');
+                
             }
         })
+        //const resume = document.getElementById("go-resume");
+    
+        //resume.addEventListener('click',(event) => {
+        //    if(event.target.id === 'go-resume')
+        //    {
+        //window.open('assets/pdf/resume.pdf', '_blank');
+        //    }
+        //})
+        
     }
 });
 

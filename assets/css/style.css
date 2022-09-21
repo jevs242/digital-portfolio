@@ -65,6 +65,7 @@ header .category{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: -30;
 }
 
 header .category a{
@@ -91,6 +92,7 @@ header .category a.active{
     position: relative;
     width: 100%;
     opacity: 0;
+    
     transition: opacity 0.5s linear 1s;
 }
 
@@ -103,7 +105,20 @@ header .category a.active{
     display: block;
     padding: 0;
     margin: 10px;
-    width: calc(33.333333% - 20px);
+    width: calc(33.33333% - 20px);
+}
+
+.best
+{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.grid .item p{
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .grid .item-content{

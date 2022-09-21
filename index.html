@@ -6,8 +6,7 @@
         <link href="assets/css/style.css" rel="stylesheet" >    
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link href="https://fonts.googleapis.com" rel="preconnect" >
-        <link href="assets/library/VenoBox-master/dist/venobox.min.css" rel="stylesheet" />
-        <link href="assets/library/VenoBox-master/dist/venobox.css" rel="stylesheet"/>
+
         <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
         <link href="assets/img/ico1.png" rel="icon">
@@ -15,7 +14,9 @@
         <title>Portfolio - Jose Velazquez</title>
         <meta name="description" content="I am Jose Velazquez ( jevs ) a videogame programmer this is my portfolio , my recent games are Depths , Culture Party , Darkode Club , KrazyRoad and Dylan Adventure The Mystery of the Forgotten Islands , My studio is called Two42 Studios 🎮.">
         <meta name="keywords" content="Unreal Engine, Unity, Gamedev , Culture Party , Depths , Darkode Club , Krazy Road , Dylan Adventure The Mystery of the Forgotten Islands , Two42 Studios , Jose Velazquez , Jevs , Portfolio , Portafolio">
-        <meta name="author" content="Jose Velazquez Jevs Two42 Studios">
+        <meta name="author" content="Jose Velazquez Jevs Two42 Studios"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <div class="container">
@@ -42,239 +43,179 @@
                         <div class="container-icon">
                             <a href="https://www.youtube.com/channel/UCHneNPXwihuICzAEtfP2EnA" target="_blank" class="youtube"> <i class="nes-icon youtube is-medium"></i></a>
                         </div>
+                        <div class="container-icon">
+                            <a href="https://www.artstation.com/jevs242" target="_blank" class="artstation"> <img src="assets/img/artstationlogo.png" style="height : 52px ; width : 52px ;"alt=""></a>
+                        </div>
+                        <div class="container-icon">
+                            <a href="https://two42studios.itch.io/" target="_blank" class="artstation"> <img src="assets/img/itchlogo.png" style="height : 52px ; width : 52px ;"alt=""></a>
+                        </div>
                     </div>
                 </div>
 
-                <form action="">
-                    <input type="text" class="search-bar" id="search-bar" placeholder="search">
-                </form>
+                <h4 class="Best">Featured Projects</h2>
+
+                <div class="owl-carousel owl-theme" style="margin-bottom:30px;">
+                    <a href="cultureparty.html"><img src="assets/img/cultureparty1-1.jpg" style="height : 100px ; width : 200px ;" ></a>
+                    <a href="krazyroad.html"><img src="assets/img/krazyroad1-1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
+                    <a href="dylanadventure.html"><img src="assets/img/dylan1-1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
+                    <a href="darkodeclub.html"><img src="assets/img/darkode1-1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
+                    <a href="depths.html"><img src="assets/img/depths1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
+                </div>
+
                 <div class="category" id="category">
                     <a href="#" class="active">ALL</a>
                     <a href="#">GAMES</a>
                     <a href="#">WEB</a>
-                    <a href="#">3D</a>
-                    <a href="#">2D</a>
                 </div>
             </header>
             
             <section class="grid" id="grid">
+
+                <!--Culture Party-->
+
                 <div class="item" 
-                data-category="games" 
-                data-tag="games juegos culture party online group unreal engine c++ blueprints"
-                data-description="Culture Party">
-                <div class="item-content">
-                    <img src="assets/img/cultureparty1.jpg" sel="assets/img/cultureparty1-1.jpg" page="cultureparty.html" alt="" class="nes-pointer"></a>
+                    data-category="games" 
+                    data-tag="games juegos culture party online group unreal engine c++ blueprints"
+                    data-description="Culture Party">
+                    <div class="item-content">
+                        <img src="assets/img/cultureparty1.jpg" sel="assets/img/cultureparty1-1.jpg" page="cultureparty.html" alt="" class="nes-pointer"></a>
+                    </div>
+
+                    <div class="Info">
+                        <p>Culture Party <br>(2021)<br>Party Game<br>Unreal Engine 4<br><a href="cultureparty.html">More Information</a></p>
+                    </div>
                 </div>
-                </div>
+
+                <!--Dylan's Adventure-->
+
                 <div class="item"                 
-                data-category="games" 
-                data-tag="games juegos aventure aventura dylan adventure the mystery of the forgotten islands group unreal engine blueprints c++"
-                data-description="Dylan Adventure The Mystery of the Forgotten Islands">
-                <div class="item-content">
-                    <img src="assets/img/dylan1.jpg" alt="" sel="assets/img/dylan1-1.jpg" page="dylanadventure.html" class="nes-pointer">
-                </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="games juegos endless runner unity google play c# krazy road"
-                data-description="Krazy Road">
-                    <div class="item-content" >
-                        <img src="assets/img/krazyroad1.jpg" sel="assets/img/krazyroad1-1.jpg" page="krazyroad.html" alt="" class="nes-pointer">
+                    data-category="games" 
+                    data-tag="games juegos aventure aventura dylan adventure the mystery of the forgotten islands group unreal engine blueprints c++"
+                    data-description="Dylan Adventure The Mystery of the Forgotten Islands">
+                    <div class="item-content">
+                        <img src="assets/img/dylan1.jpg" alt="" sel="assets/img/dylan1-1.jpg" page="dylanadventure.html" class="nes-pointer">
                     </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="games juegos gamejam unreal engine group darkode club c++ blueprints"
-                data-description="Darkode Club">
-                    <div class="item-content" >
-                        <img src="assets/img/darkode1.jpg" sel="assets/img/darkode1-1.jpg" alt="" page="darkodeclub.html" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="games juegos sharks deep depths ue5 unreal engine 5 c++ blueprints"
-                data-description="Depths">
-                    <div class="item-content" >
-                        <img src="assets/img/depths1-1.jpg" sel="assets/img/depths1.jpg" page="depths.html" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="games juegos jump billy up brincar ue4 unreal engine 4 c++ blueprints"
-                data-description="BillyUp">
-                    <div class="item-content" >
-                        <img src="assets/img/billyuplogo.png" sel="assets/img/billyup1.jpg" page="billyup.html" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="games juegos c++ card briscas gametext"
-                data-description="Card Game : Briscas">
-                    <div class="item-content" >
-                        <img src="assets/img/cardbriscas1.jpg" sel="assets/img/cardbriscas1-1.jpg" page="briscas.html" alt="" class="nes-pointer">
+                    <div class="Info">
+                        <p>Dylan's Adventure<br>(2021)<br>Adventure<br>Unreal Engine 4<br><a href="dylanadventure.html">More Information</a></p>
                     </div>
                 </div>
 
-                <div class="item"
-                data-category="web" 
-                data-tag="web php html css yrvg yrvj database sql"
-                data-description="YRVG">
-                    <div class="item-content" >
-                        <img src="assets/img/web2.jpg" sel="assets/img/web2-2.jpg" page="yrvg.html" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="2d" 
-                data-tag="2d pixel art"
-                data-description="Pixel Art">
-                    <div class="item-content" >
-                        <img src="assets/img/2d5.jpg" sel="assets/img/2d5-5.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="2d" 
-                data-tag="ui lost soul photoshop design 2d"
-                data-description="Lost Souls">
-                    <div class="item-content" >
-                        <img src="assets/img/2d2.jpg"  sel="assets/img/2d2-2.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="2d" 
-                data-tag="photoshop design 2d ui system error"
-                data-description="System_Error">
-                    <div class="item-content" >
-                        <img src="assets/img/2d6.jpg" sel="assets/img/2d6-6.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="web" 
-                data-tag="web html css focusgames "
-                data-description="Focusgames">
-                    <div class="item-content" >
-                        <img src="assets/img/web1.jpg" sel="assets/img/web1-1.jpg" page="focusgames.html" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="games" 
-                data-tag="unreal engine c++ Kon Monster Platform Side Scroller "
-                data-description="Kon Monster">
-                    <div class="item-content" >
-                        <img src="assets/img/konmonster1.jpg" sel="assets/img/konmonster1-1.jpg" page="konmonster.html" alt=""class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="3d" 
-                data-tag="3d model sword espada Kubikiribocho zabuza"
-                data-description="Kubikiribōchō Sword">
-                    <div class="item-content" >
-                        <img src="assets/img/3d3.jpg" sel="assets/img/3d3-3.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
-                <div class="item"
-                data-category="3d" 
-                data-tag="bedroom 3d model autodesk maya "
-                data-description="BedRoom">
-                    <div class="item-content" >
-                        <img src="assets/img/3d2.jpg" sel="assets/img/3d2-2.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
+                <!--Krazy Road-->
 
                 <div class="item"
-                data-category="3d" 
-                data-tag="hover bike sustance texture 3d"
-                data-description="Hover Bike (Texture)">
-                    <div class="item-content" >
-                        <img src="assets/img/3d6.jpg" sel="assets/img/3d6-6.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="games" 
+                    data-tag="games juegos endless runner unity google play c# krazy road"
+                    data-description="Krazy Road">
+                        <div class="item-content" >
+                            <img src="assets/img/krazyroad1.jpg" sel="assets/img/krazyroad1-1.jpg" page="krazyroad.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>KrazyRoad<br>(2021)<br>Endless runner<br>Unity<br><a href="krazyroad.html">More Information</a></p>
+                        </div>
                 </div>
-                <div class="item"
-                data-category="3d" 
-                data-tag="skater girl texture 3d sustance"
-                data-description="Skater Girl (Texture)">
-                    <div class="item-content" >
-                        <img src="assets/img/3d4.jpg" sel="assets/img/3d4-4.jpg" page="" alt="" class="nes-pointer">
-                    </div>
-                </div>
+                
+                <!--Darkode Club-->
 
                 <div class="item"
-                data-category="3d" 
-                data-tag="texture 3d sustance couch"
-                data-description="Couch (Texture)">
-                    <div class="item-content" >
-                        <img src="assets/img/3d1.jpg"  sel="assets/img/3d1-1.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="games" 
+                    data-tag="games juegos gamejam unreal engine group darkode club c++ blueprints"
+                    data-description="Darkode Club">
+                        <div class="item-content" >
+                            <img src="assets/img/darkode1.jpg" sel="assets/img/darkode1-1.jpg" alt="" page="darkodeclub.html" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Darkode Club<br>(2021)<br>FPS<br>Unreal Engine 4<br><a href="darkodeclub.html">More Information</a></p>
+                        </div>
                 </div>
 
+                <!--Depths-->
+                
                 <div class="item"
-                data-category="3d" 
-                data-tag="barrel sustance texture 3d"
-                data-description="Barrel (Texture)">
-                    <div class="item-content" >
-                        <img src="assets/img/3d5.jpg" sel="assets/img/3d5-5.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="games" 
+                    data-tag="games juegos sharks deep depths ue5 unreal engine 5 c++ blueprints"
+                    data-description="Depths">
+                        <div class="item-content" >
+                            <img src="assets/img/depths1-1.jpg" sel="assets/img/depths1.jpg" page="depths.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Depths<br>(2022)<br>Endless<br>Unreal Engine 5<br><a href="depths.html">More Information</a></p>
+                        </div>
                 </div>
 
+                <!--Billy Up-->
+
                 <div class="item"
-                data-category="3d" 
-                data-tag="autodesk maya green lightsaber texture lighting"
-                data-description="Green LightSaber (Lighting)">
-                    <div class="item-content" >
-                        <img src="assets/img/2d4.jpg" sel="assets/img/2d4-4.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="games" 
+                    data-tag="games juegos jump billy up brincar ue4 unreal engine 4 c++ blueprints"
+                    data-description="BillyUp">
+                        <div class="item-content" >
+                            <img src="assets/img/billyuplogo.png" sel="assets/img/billyup1.jpg" page="billyup.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Billy Up<br>(2022)<br>Endless Jumping<br>Unreal Engine 4<br><a href="billyup.html">More Information</a></p>
+                        </div>
                 </div>
+
+                <!--Card Briscas-->
+
                 <div class="item"
-                data-category="2d" 
-                data-tag="design 2d europe map europe"
-                data-description="Map: Europe">
-                    <div class="item-content" >
-                        <img src="assets/img/2d1.jpg" sel="assets/img/2d1-1.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="games" 
+                    data-tag="games juegos c++ card briscas gametext"
+                    data-description="Card Game : Briscas">
+                        <div class="item-content" >
+                            <img src="assets/img/cardbriscas1.jpg" sel="assets/img/cardbriscas1-1.jpg" page="briscas.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Card Briscas<br>(2020)<br>Text Game<br>C++<br><a href="briscas.html">More Information</a></p>
+                        </div>
                 </div>
+
+                <!--YRVG-->
+
                 <div class="item"
-                data-category="2d" 
-                data-tag="ilustrator vector dog"
-                data-description="Dog">
-                    <div class="item-content" >
-                        <img src="assets/img/2d3.jpg"  sel="assets/img/2d3-3.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="web" 
+                    data-tag="web php html css yrvg yrvj database sql"
+                    data-description="YRVG">
+                        <div class="item-content" >
+                            <img src="assets/img/web2.jpg" sel="assets/img/web2-2.jpg" page="yrvg.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>YRVG<br>(2020)<br>Web<br>PHP<br><a href="yrvg.html">More Information</a></p>
+                        </div>
                 </div>
+
+                <!--Focus Games-->
+
                 <div class="item"
-                data-category="2d" 
-                data-tag="vector adobe ilustrator icons"
-                data-description="Vector Icons">
-                    <div class="item-content" >
-                        <img src="assets/img/2d7.jpg" sel="assets/img/2d7-7.jpg" page="" alt="" class="nes-pointer">
-                    </div>
+                    data-category="web" 
+                    data-tag="web html css focusgames "
+                    data-description="Focusgames">
+                        <div class="item-content" >
+                            <img src="assets/img/web1.jpg" sel="assets/img/web1-1.jpg" page="focusgames.html" alt="" class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Focus Games<br>(2020)<br>Web<br>Html<br><a href="focusgames.html">More Information</a></p>
+                        </div>
                 </div>
-            </section>
+
+                <!--Kon Monster-->
+
+                <div class="item"
+                    data-category="games" 
+                    data-tag="unreal engine c++ Kon Monster Platform Side Scroller "
+                    data-description="Kon Monster">
+                        <div class="item-content" >
+                            <img src="assets/img/konmonster1.jpg" sel="assets/img/konmonster1-1.jpg" page="konmonster.html" alt=""class="nes-pointer">
+                        </div>
+                        <div class="Info">
+                            <p>Kon Monster<br>(2020)<br>Side Scroller<br>Unreal Engine 4<br><a href="konmonster.html">More Information</a></p>
+                        </div>
+                </div>
             
             <section class="resume">
-                <button type="button" class="nes-btn is-primary" id="bphone" onclick="document.getElementById('dialog-default').showModal();">
+                <button type="button" class="nes-btn is-primary" id="bphone">
                   View Resume
                 </button>
-                <dialog class="nes-dialog" id="dialog-default" >
-                  <form method="dialog">
-                    <p class="title">Resume</p>
-                    <p>Go To Resume? </p>
-                    <menu class="dialog-menu">
-                        <button class="nes-btn is-primary" id="go-resume">Confirm</button>
-                        <button class="nes-btn">Cancel</button>
-                    </menu>
-                  </form>
-                </dialog>
-            </section>
-            <section class="overlay" id="overlay">
-                <div class="container-iframe ">
-                    <button id="btn-closed-popup" class="nes-btn"><i class="nes-icon close is-small"></i></button>
-                    <img src="" alt="">
-                </div>
-                
-                <p class="description"></p>
-
-                <a href="cultureparty.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Culture Party" data-maxwidth="1000px" ><button type="button" id="info" class="nes-btn is-primary info">More Information</button></a>
-                
             </section>
 
         </div>
@@ -289,9 +230,17 @@
         <script src="assets/library/jquery/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
-        <script src="assets/library/VenoBox-master/dist/venobox.js" type="text/javascript"></script>
-        <script src="assets/library/VenoBox-master/dist/venobox.min.js" type="text/javascript"></script>
         <script src="assets/javascript/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            items:3
+        })
+        </script>
 
     </body>
 </html>
