@@ -19,6 +19,7 @@ a:hover
     width: 90%;
     max-width: 800px;
     margin: auto;
+
 }
 
 /*-------------
@@ -65,7 +66,7 @@ header .category{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: -30;
+    margin-bottom: -0;
 }
 
 header .category a{
@@ -281,6 +282,16 @@ footer .create-for a:hover{
         margin-left:30% ;
         margin-right: 35%;
     }
+
+    
+    .BestPhone{
+        visibility: hidden;
+    }
+    
+    
+    .BestPC{
+        visibility: hidden;
+    }
     
 }
 
@@ -294,6 +305,16 @@ footer .create-for a:hover{
         height: 30%;
         margin-left:30% ;
         margin-right: 35%;
+    }
+
+    
+    .BestPhone{
+        visibility: visible;
+    }
+    
+    
+    .BestPC{
+        visibility: hidden;
     }
     
 }
@@ -317,7 +338,15 @@ footer .create-for a:hover{
         margin-left:30% ;
         margin-right: 35%;
     }
+
+    .BestPhone{
+        visibility: visible;
+    }
     
+    
+    .BestPC{
+        visibility: hidden;
+    }
 }
 
 /*--------------------
