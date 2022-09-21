@@ -54,12 +54,12 @@
 
                 <h4 class="Best">Featured Projects</h2>
 
-                <div class="owl-carousel owl-theme" style="margin-bottom:30px;">
-                    <a href="cultureparty.html"><img src="assets/img/cultureparty1.jpg" style="height : 100px ; width : 200px ;" ></a>
-                    <a href="krazyroad.html"><img src="assets/img/krazyroad1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
-                    <a href="dylanadventure.html"><img src="assets/img/dylan1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
-                    <a href="darkodeclub.html"><img src="assets/img/darkode1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
-                    <a href="depths.html"><img src="assets/img/depths1-1.jpg" style="height : 100px ; width : 200px ;" class="img-fluid"></a>
+                <div class="owl-carousel owl-theme">
+                    <a href="cultureparty.html"><img src="assets/img/cultureparty1.jpg" style="height : 100px ; width : 100px ;" ></a>
+                    <a href="krazyroad.html"><img src="assets/img/krazyroad1.jpg" style="height : 100px ; width : 100px ;" class="img-fluid"></a>
+                    <a href="dylanadventure.html"><img src="assets/img/dylan1.jpg" style="height : 100px ; width : 100px ;" class="img-fluid"></a>
+                    <a href="darkodeclub.html"><img src="assets/img/darkode1.jpg" style="height : 100px ; width : 100px ;" class="img-fluid"></a>
+                    <a href="depths.html"><img src="assets/img/depths1-1.jpg" style="height : 100px ; width : 100px ;" class="img-fluid"></a>
                 </div>
 
                 <div class="category" id="category">
@@ -213,9 +213,31 @@
                 </div>
             
             <section class="resume">
-                <button type="button" class="nes-btn is-primary" id="bphone">
+                <button type="button" class="nes-btn is-primary" id="bphone" onclick="document.getElementById('dialog-default').showModal();">
                   View Resume
                 </button>
+                <dialog class="nes-dialog" id="dialog-default" >
+                  <form method="dialog">
+                    <p class="title">Resume</p>
+                    <p>Go To Resume? </p>
+                    <menu class="dialog-menu">
+                        <button class="nes-btn is-primary" id="go-resume">Confirm</button>
+                        <button class="nes-btn">Cancel</button>
+                    </menu>
+                  </form>
+                </dialog>
+            </section>
+            <section class="overlay" id="overlay">
+                <div class="container-iframe ">
+                    <button id="btn-closed-popup" class="nes-btn"><i class="nes-icon close is-small"></i></button>
+                    <img src="" alt="">
+                </div>
+                
+                <p class="description"></p>
+
+                <a href="cultureparty.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
+                  title="Culture Party" data-maxwidth="1000px" ><button type="button" id="info" class="nes-btn is-primary info">More Information</button></a>
+                
             </section>
 
         </div>
