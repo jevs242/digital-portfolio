@@ -271,6 +271,17 @@ footer .create-for a:hover{
     Mediaqueries
 --------------*/
 
+@media screen and (max-width:5000px) {
+    .BestPhone{
+        visibility: hidden;
+    }
+    
+    
+    .BestPC{
+        visibility: visible;
+    }
+}
+
 @media screen and (max-width:1300px) {
 
     .nes-dialog{
@@ -290,7 +301,7 @@ footer .create-for a:hover{
     
     
     .BestPC{
-        visibility: hidden;
+        visibility: visible;
     }
     
 }
