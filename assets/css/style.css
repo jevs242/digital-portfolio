@@ -267,6 +267,11 @@ footer .create-for a:hover{
     text-decoration: underline;
 }
 
+.BestPC
+{
+    margin-top: -145px;
+}
+
 /*-------------
     Mediaqueries
 --------------*/
@@ -296,7 +301,7 @@ footer .create-for a:hover{
 
     
     .BestPhone{
-        visibility: hidden;
+        visibility: visible;
     }
     
     
@@ -325,7 +330,7 @@ footer .create-for a:hover{
     
     
     .BestPC{
-        visibility: hidden;
+        visibility: visible;
     }
     
 }
