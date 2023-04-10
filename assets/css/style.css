@@ -5,7 +5,7 @@
 }
 body{
     background: #f3f3f3 !important;
-    font-family: 'Press Start 2P', cursive;
+    font-family:'Segoe UI';
     position: relative;
 }
 a{
@@ -19,7 +19,8 @@ a:hover
     width: 90%;
     max-width: 800px;
     margin: auto;
-
+    font-family:'Segoe UI';
+    font-size: 20px;
 }
 
 /*-------------
@@ -58,7 +59,7 @@ header .search-bar{
     border: none;
     text-align: center;
     font-size: 16px;
-    font-family: 'Press Start 2P', cursive;
+    font-family:'Segoe UI';
     border: 0px solid black;
 }
 
@@ -105,8 +106,9 @@ header .category a.active{
     position: absolute;
     display: block;
     padding: 0;
-    margin: 10px;
+    margin: 1px;
     width: calc(33.33333% - 20px);
+
 }
 
 .best
@@ -118,8 +120,8 @@ header .category a.active{
 .grid .item p{
 
     text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 1px;
+    font-size: 25px;
 }
 
 .grid .item-content{
@@ -229,10 +231,12 @@ img , video , iframe{
 
 .overlay .info{
     display: none;
+    
 }
 
 .overlay .info.active{
     display: flex;
+    
 }
 
 .email{
@@ -376,15 +380,18 @@ footer .create-for a:hover{
 
 .info-portfolio{
     margin-top: 30px;
-    font-size: 13px;
+    font-size: 17px;
     display: flex;
     flex: 1;
     flex-direction:stretch;
+    font-family:'Segoe UI';
+    
 }
 
 .info-portfolio .info-p{
     text-align: left;
     width: 100%;
+    
 }
 
 .info-portfolio .info-p i  {
@@ -393,7 +400,7 @@ footer .create-for a:hover{
 }
 
 .info-portfolio .category{
-    font-size: 13px;
+    font-size: 17px;
     margin-left: 10%;
     margin-right: 10%;
     width: 100%;
@@ -428,14 +435,14 @@ footer .create-for a:hover{
 
 .video-info
 {
-    font-size: 13px;
+    font-size: 17px;
     align-content: inherit;
     width: 90%;
 }
 
 .music-info
 {
-    font-size: 13px;
+    font-size: 17px;
     align-content: inherit;
     width: 90%;
     text-align: center;
@@ -498,3 +505,8 @@ footer .create-for a:hover{
 .nes-dialog.desactive{
     display: none;
 }
+
+.category{
+    font-size: 25px;
+}
+
