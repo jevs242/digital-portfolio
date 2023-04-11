@@ -106,8 +106,8 @@ header .category a.active{
     position: absolute;
     display: block;
     padding: 0;
-    margin: 1px;
-    width: calc(33.33333% - 20px);
+    margin: 3% 0% 0% 3%;
+    width: calc(32.33333% - 20px);
 
 }
 
@@ -115,6 +115,16 @@ header .category a.active{
 {
     text-align: center;
     padding-bottom: 15px;
+}
+
+.BestPC
+{
+    padding-left: 20px;
+}
+
+.BestPhone
+{
+    padding-left: 20px;
 }
 
 .grid .item p{
